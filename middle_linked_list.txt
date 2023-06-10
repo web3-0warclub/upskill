@@ -1,0 +1,27 @@
+let as consider 
+
+head=[1,2,3,4,5]
+
+sl =head
+fst=head
+
+sl dn fst in the initial point of the head:
+
+while fst and fst.next present in the  head interate happens
+        fst=fst.next.next
+        sl=sl.next
+
+return sl
+
+In first loop fst=1 and fst.next=2 are present so interation happens
+   since fst ==fst.next.next  and sl =sl.next
+         fst =3  sl=2
+
+In second loop  fst=3 and fst.next=4 are in the head so interation happens
+    since   fst ==fst.next.next  and sl =sl.next
+            fst=5 and 3
+
+In thirs loop fst=5 and fst.next there is no value no iteration takes place
+    there fore 
+    it return sl [3,4,5] values
+         
